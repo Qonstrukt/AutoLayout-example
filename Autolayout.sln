@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autolayout.iOS", "Autolayout.iOS\Autolayout.iOS.csproj", "{C37E4A44-E3AD-4B0A-90FD-06C870831402}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83595C31-4831-4A1E-80A0-3421243E0F63}"
+	ProjectSection(SolutionItems) = preProject
+		iOS Autolayout & Size Classes.pdf = iOS Autolayout & Size Classes.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -25,5 +30,7 @@ Global
 		{C37E4A44-E3AD-4B0A-90FD-06C870831402}.Release|iPhone.Build.0 = Release|iPhone
 		{C37E4A44-E3AD-4B0A-90FD-06C870831402}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{C37E4A44-E3AD-4B0A-90FD-06C870831402}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
