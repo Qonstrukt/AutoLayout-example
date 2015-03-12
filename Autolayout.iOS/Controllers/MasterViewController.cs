@@ -119,7 +119,7 @@ namespace Autolayout.iOS
 		}
 
 		[Export ("splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:")]
-		public bool CollapseSecondViewController (UISplitViewController splitViewController, UIKit.UIViewController secondaryViewController, UIViewController primaryViewController)
+		public bool CollapseSecondViewController (UISplitViewController splitViewController, UIViewController secondaryViewController, UIViewController primaryViewController)
 		{
 			return collapseSecondViewController;
 		}
